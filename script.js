@@ -2,7 +2,8 @@ $(function (){
 
 
   $.ajax({
-    url: 'http://localhost:7000/profile',
+    // url: 'http://localhost:7000/profile',
+    url: 'https://polar-island-55241.herokuapp.com/profile',
 
     type: 'GET',
 
@@ -12,6 +13,7 @@ $(function (){
 
 
 function successFunction(data){
+
 
   $("#name").text(data.name);
   $("#email").text(data.email);

@@ -5,7 +5,7 @@
 
 
 body {
-  background-image: url("./assets/bgpic.jpeg");
+  background-image: url("assets/bgpic.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   line-height: 1.625;
